@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.pressed {
+  opacity: 1;
+  box-shadow: 0 0 20px white;
+}
